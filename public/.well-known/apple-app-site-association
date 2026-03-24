@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "MVLLQMYSSC.com.fyp.liuconnect",
+        "paths": ["*"]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["MVLLQMYSSC.com.fyp.liuconnect"]
+  },
+  "webcredentials": {
+    "apps": ["MVLLQMYSSC.com.fyp.liuconnect"]
+  }
+}
