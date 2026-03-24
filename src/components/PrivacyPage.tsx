@@ -38,7 +38,7 @@ const sections = [
     body: [
       'You can update profile information inside the app and manage notification permissions from your device settings.',
       'Depending on your location, you may have rights to access, correct, or delete your data, and to object to or restrict certain processing.',
-      'To exercise privacy rights, contact us at mjawadzaiter@gmail.com.',
+      'To exercise privacy rights, contact us at liuconnect.app@gmail.com.',
     ],
   },
   {
@@ -102,8 +102,8 @@ export function PrivacyPage() {
             <h2 className="text-xl font-semibold text-white mb-3">10. Contact Us</h2>
             <p>
               For privacy questions, data requests, or account deletion requests, contact us at{' '}
-              <a href="mailto:mjawadzaiter@gmail.com" className="text-accent hover:text-[#5fbdf5] transition-colors">
-                mjawadzaiter@gmail.com
+              <a href="mailto:liuconnect.app@gmail.com" className="text-accent hover:text-[#5fbdf5] transition-colors">
+                liuconnect.app@gmail.com
               </a>
               .
             </p>
