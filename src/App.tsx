@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { Footer } from './components/Footer'
 import { HeroSection } from './components/HeroSection'
 import { Navbar } from './components/Navbar'
+import { ChildSafetyPage } from './components/ChildSafetyPage.tsx'
 import { PrivacyPage } from './components/PrivacyPage.tsx'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/privacy" element={<PrivacyPage />} />
+      <Route path="/child-safety" element={<ChildSafetyPage />} />
       <Route path="/" element={landingPage} />
       <Route path="*" element={landingPage} />
     </Routes>

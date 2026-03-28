@@ -9,9 +9,12 @@ export function Footer() {
           <LogoIcon className="w-8 h-8" />
           <span className="text-white/30 text-sm">© 2026 LIU Connect</span>
         </div>
-        <nav className="flex gap-6 text-white/30 text-sm">
+        <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-white/30 text-sm">
           <Link to="/privacy" className="hover:text-white/60 transition-colors">
             Privacy Policy
+          </Link>
+          <Link to="/child-safety" className="hover:text-white/60 transition-colors">
+            Child safety
           </Link>
         </nav>
       </div>
